@@ -4,6 +4,6 @@ require 'bundler/setup' # Set up gems listed in the Gemfile.
 
 module DefaultOptions
   def default_options
-    super.merge!(Port: 3001)
+    super.merge!(Port: 3002)
   end
 end
