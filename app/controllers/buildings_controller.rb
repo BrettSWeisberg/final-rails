@@ -1,6 +1,8 @@
 class BuildingsController < ApplicationController
   def index
     @buildings = Building.all
+
+    render json: @buildings
   end
 
   def new
@@ -19,7 +21,7 @@ class BuildingsController < ApplicationController
   def edit
       @building = Building.find(params[:id])
   end
-  
+
   def update
       @building = Building.find(params[:id])
       @building.update(building_params)
