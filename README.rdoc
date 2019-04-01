@@ -1,28 +1,17 @@
-== README
+## Project Name: final-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Overview:
+-This app is the API back-end for a React app.
 
-Things you may want to cover:
+## Installation:
+1. Fork and clone the repo
+2. In the terminal type 'rails s -p 3001'
+3. rake db:migrate
+4. rake db:seed
+5. rails s
 
-* Ruby version
+## Tests:
+There are currently no tests within the repo. All testing was done in the browser.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## License:
+This code is open source and free for anyone to use. The license agreement is the MIT open source agreement.
