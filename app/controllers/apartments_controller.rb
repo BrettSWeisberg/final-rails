@@ -12,8 +12,8 @@ class ApartmentsController < ApplicationController
   end
 
   def create
-    @project = Apartment.create(apartment_params)
-    @project.save
+    @apartment = Apartment.new(apartment_params)
+    @apartment.save
     render json: @apartment
   end
 
